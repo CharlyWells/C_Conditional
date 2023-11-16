@@ -7,6 +7,17 @@
 
 int main()
 {
+int height;
+printf("What is your height in centimeters?");
+scanf("%d",&height);
 
+if(height<148)
+{
+  printf("You are a dwarf");
+}
+else
+{
+  printf("You have a normal height");
+}
 return 0;
 }
